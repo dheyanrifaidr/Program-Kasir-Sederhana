@@ -5,7 +5,7 @@ non_return_func("Afifa", "Dheyan")
 
 
 
-daftar = [["Piring", 10000], ["Gelas", 5000], ["Botol", 8000], ["Wadah Makan", 7000]] 
+daftar = [["Piring", 10000], ["Gelas", 8000], ["Botol", 5000], ["Wadah Makan", 7000]] 
 def daftar_barang():
     print("\nSilahkan memilih barang yang ingin anda beli \nSilakahkan masukkan nomor barang, lalu tekan enter") 
     print("-------------------------------------") 
