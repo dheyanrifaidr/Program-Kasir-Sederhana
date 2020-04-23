@@ -5,7 +5,7 @@ non_return_func("Afifa", "Dheyan")
 
 
 
-daftar = [["Piring", 10000], ["Gelas", 8000], ["Botol", 5000], ["Wadah Makan", 7000]] 
+daftar = [["Piring", 10000], ["Gelas", 5000], ["Botol", 8000], ["Wadah Makan", 7000]] 
 def daftar_barang():
     print("\nSilahkan memilih barang yang ingin Anda beli \nMasukkan nomor barang, lalu tekan enter") 
     print("-------------------------------------") 
@@ -24,7 +24,7 @@ daftar_barang()
 jawaban = "" 
 catatan_pilihan = [] 
 while jawaban != "0": 
-    jawaban = input("Pilih barang yang akan dibeli ") 
+    jawaban = input("Silakan pilih barang yang akan anda dibeli ") 
     daftar_barang() 
     if jawaban != "0": 
         catatan_pilihan.append(int(jawaban)-1) 
